@@ -1,0 +1,249 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* borderHead */
+section.head .borderHead{
+    width: 100%;
+    height: 70px;
+    background-color: #17432d;
+}
+/* end borderHead*/
+
+/* navbar */
+section.head .navbarHead{
+    background: transparent;
+    margin: 0% 0% 0% 10%;
+}
+
+section.head .navbarHead .navbar-toggler{
+    padding: .50rem .75rem;
+}
+
+section.head .navbarHead .collapse .navbar-nav a{
+    text-decoration: none;
+    font-family: 'Noto Sans JP', cursive;
+    font-weight: bold;
+    color: white;
+    display: block;
+    padding: 15px 15px;
+}
+
+section.head .navbarHead .collapse .navbar-nav a:hover{
+    transition: 0.5s;
+    background-color: white;
+    border-radius: 5px;
+    color: #17432d;
+}
+
+/* name */
+section.head h6{
+    float: right;
+    margin-top: 12px;
+    margin-right:10%;
+    padding: 15px 15px;
+    font-family: 'Ubuntu';
+    color: white;
+}
+
+section.head h6:hover{
+    background-color: white;
+    border-radius: 5px;
+    color: #17432d;
+    transition: 1s;
+}
+/* end navbar */
+
+/* background */
+section.head .bg{
+    background-image: url(assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+section.head .bg .introduce{
+    padding: 20% 0% 0% 0%;
+    margin: 0px 0px 800px 100px;
+    font-family: 'Ubuntu';
+    color: #eff7e1;
+}
+
+section.head .bg .introduce h1{
+    font-size: 50px;
+}
+/* end background */
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* skill */
+
+/* page */
+section.sectionSkill{
+    background-color: #f7f7f7;
+    width: auto;
+    height: 800px;
+    padding: 10px;
+}
+
+/* border skill */
+section.sectionSkill .skill{
+    background-color: #d3e0ea;
+    padding: 16px;
+    margin: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+/* text skill */
+section.sectionSkill h6{
+    text-align: center;
+    font-family: 'Ubuntu';
+}
+
+section.sectionSkill .image{
+    display: flex;
+    width: auto;
+    height: 200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 200px;
+    padding: 0% 0% 0% 110%;
+    margin: 250px 0px 0px 0px;
+}
+/* end skill */
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* about me */
+
+/* page */
+section.sectionAme{
+    background-color: #f7f7f7;
+    width: auto;
+    height: 500px;
+    padding: 10px;
+}
+
+/* border about me */
+section.sectionAme .aboutMe{
+    background-color: #d3e0ea;
+    padding: 16px 0px 0px 0px;
+    margin: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+/* text about me */
+section.sectionAme h6{
+    text-align: center;
+    font-family: 'Ubuntu';
+}
+
+section.sectionAme .textAme{
+    padding: 5% 0% 0% 0%;
+    margin: 0px 50px 0px;
+    font-family: 'Ubuntu';
+    color: black;
+}
+
+section.sectionAme .textAme h1{
+    font-size: 25px;
+    text-align: justify;
+}
+/* end about me */
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* contact or footer */
+
+/* page */
+section.sectionFooter{
+    background-color: #f7f7f7;
+    width: auto;
+    height: 300px;
+    padding: 10px;
+}
+
+/* border contact */
+section.sectionFooter .contact{
+    background-color: #d3e0ea;
+    padding: 16px 0px 0px 0px;
+    margin: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+/* text contact */
+section.sectionFooter h6{
+    text-align: center;
+    font-family: 'Ubuntu';
+}
+
+footer section.pos2{
+    border-radius: 20px 20px 0 0;
+    margin-top: 20px;
+    width: 100%;
+    height:190px;
+    background-color: #17432d;
+}
+
+footer section.pos2 .sosmed ul {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 48.5%;
+    display: flex;
+    transform: translate(-50%, -50%);
+
+}
+
+footer  section.pos2 .sosmed ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+footer  section.pos2 .sosmed ul li .fa {
+    color: #000000;
+    line-height: 50px;
+    transition: .5s;
+    font-size: 25px;
+}
+footer  section.pos2 .sosmed ul li .fa:hover {
+    color: #ffffff;
+}
+
+footer section.pos2 .sosmed ul li a {
+    background-color: white;
+    text-align: center;
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+footer section.pos2 .sosmed ul li a:hover {
+  transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+footer section.pos2 .sosmed ul li:nth-child(1) a:hover {
+  background-color: #3b5999;
+}
+
+footer section.pos2 .sosmed ul li:nth-child(2) a:hover {
+  background-color: #55acee;
+}
+
+footer section.pos2 .sosmed ul li:nth-child(3) a:hover {
+  background-color: #e4405f;
+}
+/* end contact or footer */
